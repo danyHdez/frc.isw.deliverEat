@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DeliverEatApplication<deliverEat>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "frc.isw.deliverEat.DeliverEatApplication",
+      "projectName": "deliverEat",
+      "args": "",
+      "env": {
+        "com.castor.storage.location" : "/tmp",
+        "spring.datasource.url": "jdbc:mysql://localhost:3306/delivereat",
+        "spring.datasource.username": "delivereat",
+        "spring.datasource.password": "delivereat",
+        "com.castor.url" : "http://localhost:8080"
+      }
+    }
+  ]
+}
